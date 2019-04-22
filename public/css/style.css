@@ -1,0 +1,363 @@
+* {
+    box-sizing: content-box;
+}
+
+body {
+    font-family: "Courier New", Courier, monospace
+}
+
+#welcome {
+    height: 97vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+
+#welcome img {
+    margin: 0;
+    width: 300px;
+    height: 300px;
+}
+
+#error {
+    color: Crimson;
+    text-align: center;
+    font-family: "Courier New", Courier, monospace
+}
+
+#form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+#form input {
+    border: none;
+    border-bottom: 2px solid black;
+    width: 200px;
+    height: 40px;
+    text-align: center;
+}
+
+#form input[placeholder] {
+    font-family: "Courier New", Courier, monospace
+}
+
+#form button {
+    cursor: pointer;
+    margin: 10px;
+    border-radius: 10px;
+    background-color: LightGray;
+    width: 200px;
+    height: 40px;
+    font-family: "Courier New", Courier, monospace
+}
+
+#login {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+#login input {
+    border: none;
+    border-bottom: 2px solid black;
+    width: 200px;
+    height: 40px;
+    text-align: center;
+    margin: 20px;
+}
+
+#login input[placeholder] {
+    font-family: "Courier New", Courier, monospace
+}
+
+#login button {
+    cursor: pointer;
+    margin: 10px;
+    border-radius: 10px;
+    background-color: LightGray;
+    width: 200px;
+    height: 40px;
+    font-family: "Courier New", Courier, monospace;
+}
+
+
+#perfil {
+    display: flex;
+    justify-content: space-between;
+}
+
+#perfil img {
+    height: 100px;
+    width: 100px;
+    margin: 5px;
+    cursor: pointer;
+}
+
+#img-profilepic {
+    border: 1px solid black;
+}
+
+#profile {
+    display: flex;
+}
+
+#profile img {
+    margin: 30px;
+    width: 400px;
+    height: 400px;
+}
+
+#info {
+    display: flex;
+    flex-direction: column;
+}
+
+#info h2 {
+    font-family: "Courier New", Courier, monospace;
+    margin: 30px;
+}
+
+#info p {
+    font-family: "Courier New", Courier, monospace;
+    margin: 30px;
+}
+
+#info button {
+    cursor: pointer;
+    border-radius: 10px;
+    background-color: LightGray;
+    width: 200px;
+    height: 40px;
+    font-family: "Courier New", Courier, monospace;
+    margin-left: 30px;
+}
+
+#info textarea {
+    margin-left: 30px;
+    border-radius: 10px;
+    font-family: "Courier New", Courier, monospace;
+}
+
+#box {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#upload {
+    position: absolute;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 500px;
+    height: 200px;
+    background-color:  #DC8C8C;
+    border-radius: 10px;
+}
+
+#upload button {
+    cursor: pointer;
+    border-radius: 10px;
+    background-color: LightGray;
+    width: 100px;
+    height: 40px;
+    font-family: "Courier New", Courier, monospace;
+    margin: 10px;
+}
+
+#upload input {
+    width: 400px;
+    margin: 10px;
+    font-family: "Courier New", Courier, monospace;
+}
+
+#upload label {
+    margin: 10px;
+    font-family: "Courier New", Courier, monospace;
+}
+
+#upload p {
+    cursor: pointer;
+}
+
+
+#bio {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+
+}
+
+#bio a {
+    cursor: pointer;
+    font-family: "Courier New", Courier, monospace;
+}
+
+
+#box-bio {
+    margin: 20px;
+    padding: 50px;
+    width: auto;
+    height: auto;
+    border: 1px dashed LightGrey;
+    font-family: "Courier New", Courier, monospace;
+}
+
+#otherProfile {
+    display: flex;
+}
+
+#online {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+#online-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    margin: 20px;
+    border: 1px solid black;
+    width: 400px;
+}
+
+#online-container h2 {
+    font-family: "Courier New", Courier, monospace;
+}
+
+#online-container img {
+    margin: 30px;
+    width: 300px;
+    height: 300px;
+}
+
+#users-online {
+    display: flex;
+    justify-content: center;
+    font-family: "Courier New", Courier, monospace;
+}
+
+#each-chat-container {
+    display: flex;
+    flex-direction: row;
+    padding: 10px;
+    height: auto;
+    width: 150vh;
+    margin: 10px;
+    border: 1px solid black;
+}
+
+#each-chat-container img {
+    margin: 10px;
+    width: 200px;
+    height: 200px;
+    border: 1px solid black;
+}
+
+#row {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+#chat-container {
+    display: flex;
+    height: auto;
+    justify-content: center;
+    border: 2px solid grey;
+}
+
+#chat {
+    display: flex;
+    justify-content: center;
+    font-family: "Courier New", Courier, monospace;
+}
+
+#textarea-chat {
+    margin: 10px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    font-family: "Courier New", Courier, monospace;
+}
+
+#textarea-chat textarea {
+    border: 2px solid black;
+}
+
+#message {
+    display: flex;
+    flex-direction: column;
+}
+
+#friends-container {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    font-family: "Courier New", Courier, monospace;
+}
+
+#friends-container img {
+    width: 200px;
+    height: 200px;
+    border: 1px solid black;
+}
+
+
+#friends-container button {
+    cursor: pointer;
+    border-radius: 10px;
+    background-color: LightGray;
+    width: 100px;
+    height: 40px;
+    font-family: "Courier New", Courier, monospace;
+    margin: 10px;
+}
+
+
+#friend-request {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 20px;
+    border: 1px solid black;
+    width: 400px;
+}
+
+#try {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+#links {
+    padding: 5px;
+    right: 130px;
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+}
+
+#link {
+    display: flex;
+    justify-content: center;
+    border: 1px dashed LightGray;
+    width: 135px;
+    padding: 1px;
+    margin: 2px;
+    color: black;
+    text-decoration: underline;
+    cursor: pointer;
+}
