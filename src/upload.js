@@ -9,20 +9,23 @@ export default class Upload extends React.Component {
 
     render() {
         return (
-            <div id="box">
-                <div id="upload">
-                    <form>
-                    <p onClick={this.props.hideUploader}>X</p>
-                    <label htmlFor='file'><strong>Choose Your New Profile Picture</strong></label>
-                    <br />
-                    <input type='file' onChange={e => {
-                        const form = new FormData;
-                        form.append('file', e.target.files[0]);
-                        axios.post('/upload', form);
-                    }}/>
-                    <br />
-                    <button>Upload</button>
-                    </form>
+            <div id="upload-component">
+                <div id="box">
+                    <div id="box-grey"></div>
+                    <div id="upload">
+                        <form>
+                        <p onClick={this.props.hideUploader}>X</p>
+                        <label htmlFor='file'><strong>Choose Your New Profile Picture</strong></label>
+                        <br />
+                        <input type='file' onChange={e => {
+                            const form = new FormData;
+                            form.append('file', e.target.files[0]);
+                            axios.post('/upload', form);
+                        }}/>
+                        <br />
+                        <button>Upload</button>
+                        </form>
+                    </div>
                 </div>
             </div>
         )
