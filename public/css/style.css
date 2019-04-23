@@ -218,12 +218,17 @@ body {
     justify-content: center;
     align-items: center;
     flex-direction: column;
+}
 
+#bio textarea {
+    font-size: 25px;
+    font-family: "Courier New", Courier, monospace;
 }
 
 #bio a {
     cursor: pointer;
     font-family: "Courier New", Courier, monospace;
+    font-size: 25px;
 }
 
 
@@ -232,7 +237,7 @@ body {
     padding: 50px;
     width: auto;
     height: auto;
-    border: 1px dashed LightGrey;
+    border: 1px dashed Grey;
     font-family: "Courier New", Courier, monospace;
 }
 
