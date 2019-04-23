@@ -14,7 +14,7 @@ JavaScript | AWS S3 | Node.js | Express.js | PostgreSQL | Socket.io | React | Re
 <h2>Preview</h2>
 
 <h3><b> Registration </b></h3>
-<img src="https://media.giphy.com/media/YVraXnTiT8TVjZ91Rm/giphy.gif" height="400px" width="750px">
+<img src="https://media.giphy.com/media/BMtC8y28oJpwEdE9Qf/giphy.gif" height="400px" width="750px">
 
 <br />
 <br />
