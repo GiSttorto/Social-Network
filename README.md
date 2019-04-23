@@ -1,6 +1,6 @@
 # Social-Network
 
-<h2>Overview</h2>
+<h2><u>Overview</u></h2>
 It is single-page applications using React.js, Redux and Socket-IO that allows the user make their own profiles and get contact with other users.
 
 
