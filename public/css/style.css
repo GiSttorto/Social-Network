@@ -117,7 +117,20 @@ body {
     height: 400px;
 }
 
+#other-profile {
+    display: flex;
+}
+
+#other-profile img {
+    margin: 20px;
+    width: 600px;
+    height: 700px;
+}
+
 #info {
+    width: 600px;
+    height: 700px;
+    height: auto;
     display: flex;
     flex-direction: column;
 }
@@ -140,6 +153,7 @@ body {
     height: 40px;
     font-family: "Courier New", Courier, monospace;
     margin-left: 30px;
+    margin-bottom: 30px;
 }
 
 #info textarea {

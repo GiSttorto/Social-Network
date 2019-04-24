@@ -36,9 +36,9 @@ export default class OtherProfile extends React.Component {
 
         }
         return (
-            <div>
+            <div id="other-profile">
 
-                <div >
+                <div>
                     <ProfilePic
                     image = {this.state.picurl}
                     />
