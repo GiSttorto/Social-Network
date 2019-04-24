@@ -57,3 +57,14 @@ JavaScript | AWS S3 | Node.js | Express.js | PostgreSQL | Socket.io | React | Re
 
 <h3><b>Unfriend</b></h3>
 <img src="https://media.giphy.com/media/7OX5xow1hz23kFKgW7/giphy.gif" height="400px" width="750px">
+
+<br />
+<hr />
+<br />
+
+<h3><b>Chat</b></h3>
+<img src="https://media.giphy.com/media/5QQa54WDie3xxrl8Xb/giphy.gif" height="400px" width="750px">
+
+<br />
+<hr />
+<br />

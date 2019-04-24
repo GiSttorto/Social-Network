@@ -79,7 +79,7 @@ class Chat extends React.Component {
 
                 <div id="textarea-chat">
                     <h2>Me: </h2>
-                    <textarea rows='10' cols='50' onKeyDown = { this.handleKeyDown} />
+                    <textarea rows='10' cols='40' onKeyDown = { this.handleKeyDown} />
                 </div>
             </div>
         )

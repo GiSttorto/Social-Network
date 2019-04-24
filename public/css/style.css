@@ -342,7 +342,9 @@ body {
 }
 
 #textarea-chat textarea {
+    font-family: "Courier New", Courier, monospace;
     border: 2px solid black;
+    font-size: 30px;
 }
 
 #message {
