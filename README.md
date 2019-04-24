@@ -1,6 +1,6 @@
 # Social-Network
 
-<h2><u>Overview</u></h2>
+<h2>Overview</h2>
 It is single-page applications using React.js, Redux and Socket-IO that allows the user make their own profiles and get contact with other users.
 
 
@@ -26,4 +26,7 @@ JavaScript | AWS S3 | Node.js | Express.js | PostgreSQL | Socket.io | React | Re
 <br />
 
 <h3><b>Adding a Bio</b></h3>
+<img src="https://media.giphy.com/media/3fcrIPS17UgzjR4kPl/giphy.gif" height="400px" width="750px">
+
+<h3><b>Updating Bio</b></h3>
 <img src="https://media.giphy.com/media/3fcrIPS17UgzjR4kPl/giphy.gif" height="400px" width="750px">

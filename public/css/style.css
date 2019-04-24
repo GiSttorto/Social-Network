@@ -253,14 +253,20 @@ body {
 }
 
 #online-container {
+    color: black;
+    text-decoration: underline black;
+    text-align: center;
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
     align-items: center;
     margin: 20px;
-    border: 1px solid black;
+    border: 1px dashed grey;
     width: 400px;
+    height: 500px;
+    padding: 5px;
 }
+
 
 #online-container h2 {
     font-family: "Courier New", Courier, monospace;

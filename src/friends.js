@@ -1,4 +1,5 @@
 import React from 'react'
+import { Link } from 'react-router-dom';
 import { connect } from 'react-redux'
 import { receiveFriendsWannabes, unfriend, acceptFriendship } from './actions';
 
@@ -64,8 +65,9 @@ class Friends extends React.Component {
 
                         <div>
                             <div id="friend-request" key={friend.id}>
-
-                                <h2>{friend.first}  {friend.last}</h2>
+                                <Link id="try" to={`/user/${friend.id}`}>
+                                    <h2>{friend.first}  {friend.last}</h2>
+                                </Link>
                                 <img src={friend.picurl} />
 
                             <div id="button">
@@ -88,7 +90,9 @@ class Friends extends React.Component {
                     <div>
                         <div id="friend-request" key={wannabe.id}>
 
-                            <h2>{wannabe.first}  {wannabe.last}</h2>
+                            <Link id="try" to={`/user/${wannabe.id}`}>
+                                <h2>{wannabe.first}  {wannabe.last}</h2>
+                            </Link>
                             <img src={wannabe.picurl} />
 
                             <div>

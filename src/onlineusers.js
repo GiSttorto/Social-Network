@@ -24,10 +24,12 @@ class OnlineUsers extends React.Component {
         } else {
             var usersOnlineReturn = this.props.users.map(users => (
                 <div>
-                    <div id="online-container" key={users.id}>
-                    <h2>{users.first}  {users.last}</h2>
-                    <img src={users.picurl} />
-                    </div>
+                    <Link id="try" to={`/user/${users.id}`}>
+                        <div id="online-container" key={users.id}>
+                            <h2>{users.first}  {users.last}</h2>
+                            <img src={users.picurl} />
+                        </div>
+                    </Link>
                 </div>
             ))
         }
