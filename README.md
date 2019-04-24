@@ -17,12 +17,14 @@ JavaScript | AWS S3 | Node.js | Express.js | PostgreSQL | Socket.io | React | Re
 <img src="https://media.giphy.com/media/BMtC8y28oJpwEdE9Qf/giphy.gif" height="400px" width="750px">
 
 <br />
+<hr />
 <br />
 
 <h3><b>Uploading a new profile photo</b></h3>
 <img src="https://media.giphy.com/media/vvJ82QbLRc4xTznn3E/giphy.gif" height="400px" width="750px">
 
 <br />
+<hr />
 <br />
 
 <h3><b>Adding a Bio</b></h3>
@@ -34,3 +36,7 @@ JavaScript | AWS S3 | Node.js | Express.js | PostgreSQL | Socket.io | React | Re
 
 <h3><b>Updating Bio</b></h3>
 <img src="https://media.giphy.com/media/65HR2QUlOoeOFsGOL3/giphy.gif" height="400px" width="750px">
+
+<br />
+<hr />
+<br />
