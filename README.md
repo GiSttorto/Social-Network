@@ -55,5 +55,5 @@ JavaScript | AWS S3 | Node.js | Express.js | PostgreSQL | Socket.io | React | Re
 <hr />
 <br />
 
-<h3><b>Accepting Friends Request</b></h3>
+<h3><b>Unfriend</b></h3>
 <img src="https://media.giphy.com/media/7OX5xow1hz23kFKgW7/giphy.gif" height="400px" width="750px">
