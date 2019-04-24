@@ -352,9 +352,13 @@ body {
 
 #friends-container {
     display: flex;
-    flex-direction: row;
     flex-wrap: wrap;
-    font-family: "Courier New", Courier, monospace;
+    justify-content: center;
+    text-align: center;
+    /* align-items: center; */
+    /* margin: 20px;
+    border: 1px solid black;
+    width: 400px; */
 }
 
 #friends-container img {
@@ -371,25 +375,23 @@ body {
     width: 100px;
     height: 40px;
     font-family: "Courier New", Courier, monospace;
+    margin: 15px;
+}
+
+#friends-container h1 {
     margin: 10px;
 }
 
-
 #friend-request {
+    text-align: center;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    margin: 20px;
+    margin: 200px;
     border: 1px solid black;
     width: 400px;
-}
-
-#try {
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    justify-content: center;
+    height: 450px;
 }
 
 #links {
@@ -412,4 +414,15 @@ body {
     color: black;
     text-decoration: underline;
     cursor: pointer;
+}
+
+#link2 {
+    display: flex;
+    justify-content: center;
+    padding: 1px;
+    margin: 2px;
+    color: black;
+    text-decoration: underline;
+    cursor: pointer;
+    text-align: center;
 }

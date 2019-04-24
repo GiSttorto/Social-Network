@@ -43,3 +43,10 @@ JavaScript | AWS S3 | Node.js | Express.js | PostgreSQL | Socket.io | React | Re
 
 <h3><b>Users Online and Sending Friend Request</b></h3>
 <img src="https://media.giphy.com/media/aJoz0WFxHABM6uhy7P/giphy.gif" height="400px" width="750px">
+
+<br />
+<hr />
+<br />
+
+<h3><b>Users Online and Sending Friend Request</b></h3>
+<img src="https://media.giphy.com/media/klAWwQL1j45xYv87Uh/giphy.gif" height="400px" width="750px">

@@ -65,7 +65,7 @@ class Friends extends React.Component {
 
                         <div>
                             <div id="friend-request" key={friend.id}>
-                                <Link id="try" to={`/user/${friend.id}`}>
+                                <Link id="link2" to={`/user/${friend.id}`}>
                                     <h2>{friend.first}  {friend.last}</h2>
                                 </Link>
                                 <img src={friend.picurl} />
@@ -87,10 +87,10 @@ class Friends extends React.Component {
                 // console.log("this.props.wannabes", this.props.wannabes);
                 var wannabes = this.props.wannabes.map(wannabe => (
 
-                    <div>
+                    <div id="friends-wannabe">
                         <div id="friend-request" key={wannabe.id}>
 
-                            <Link id="try" to={`/user/${wannabe.id}`}>
+                            <Link id="link2" to={`/user/${wannabe.id}`}>
                                 <h2>{wannabe.first}  {wannabe.last}</h2>
                             </Link>
                             <img src={wannabe.picurl} />
@@ -105,27 +105,21 @@ class Friends extends React.Component {
                 // console.log("this.state Friends.js", this.state);
                 return (
 
-                    <div id="try">
                         <div id="friends-container">
 
-                            <div >
+                            <div>
+                                <h1>Friends Request : </h1>
+                                <div>{wannabes}</div>
+                            </div>
 
-                                <div>
-                                    <h1>Friends Request : </h1>
-                                    <div>{wannabes}</div>
-                                </div>
+                            <hr />
 
-                                <hr />
-
-                                <div>
-                                    <h1>Friends : </h1>
-                                    <div>{friendList}</div>
-                                </div>
-
+                            <div>
+                                <h1>Friends : </h1>
+                                <div>{friendList}</div>
                             </div>
 
                         </div>
-                    </div>
                 )
             }
 }
