@@ -28,5 +28,9 @@ JavaScript | AWS S3 | Node.js | Express.js | PostgreSQL | Socket.io | React | Re
 <h3><b>Adding a Bio</b></h3>
 <img src="https://media.giphy.com/media/3fcrIPS17UgzjR4kPl/giphy.gif" height="400px" width="750px">
 
+<br />
+<hr />
+<br />
+
 <h3><b>Updating Bio</b></h3>
 <img src="https://media.giphy.com/media/65HR2QUlOoeOFsGOL3/giphy.gif" height="400px" width="750px">
