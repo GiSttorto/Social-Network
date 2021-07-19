@@ -1,3 +1,7 @@
+```diff
+- THIS PROJECT IS CURRENTLY BEING REVIEWED TO IMPROVE THE CODE
+```
+
 # Social-Network
 
 <h2>Overview</h2>
